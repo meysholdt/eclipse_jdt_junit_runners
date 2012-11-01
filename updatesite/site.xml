@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.jdt.junit.runners.feature_0.1.0.201210312359.jar" id="org.eclipse.jdt.junit.runners.feature" version="0.1.0.201210312359">
-      <category name="JDT JUnit UI Extension"/>
-   </feature>
+   <feature url="features/org.eclipse.jdt.junit.runners.feature_0.1.0.201211010101.jar" id="org.eclipse.jdt.junit.runners.feature" version="0.1.0.201211010101"/>
    <category-def name="JDT JUnit UI Extension" label="JDT JUnit UI Extension"/>
 </site>
