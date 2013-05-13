@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature url="features/org.eclipse.jdt.junit.runners.feature_0.0.0.jar" id="org.eclipse.jdt.junit.runners.feature" version="0.0.0">
+		<category name="junit.runners"/>
+	</feature>
+	<category-def name="junit.runners" label="JDT JUnit Runners">
+		<description>Experimental extensions to org.eclipse.jdt.junit to support custom JUnit runners</description>
+	</category-def>
+</site>
