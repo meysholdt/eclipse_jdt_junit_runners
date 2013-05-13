@@ -1,0 +1,24 @@
+<settings>
+	<activeProfiles>
+		<activeProfile>external-repositories</activeProfile>
+	</activeProfiles>
+	<profiles>
+		<profile>
+			<id>external-repositories</id>
+			<repositories>
+				<repository>
+					<id>Eclipse Juno</id>
+					<layout>p2</layout>
+					<url>http://download.eclipse.org/releases/juno</url>
+				</repository>
+				<repository>
+					<id>Eclipse Orbit</id>
+					<layout>p2</layout>
+					<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20120526062928/repository/
+					</url>
+				</repository>
+			</repositories>
+		</profile>
+	</profiles>
+</settings>
+
