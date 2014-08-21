@@ -15,5 +15,8 @@
    <feature url="features/org.eclipse.jdt.junit.runners.feature_0.1.0.201408210908.jar" id="org.eclipse.jdt.junit.runners.feature" version="0.1.0.201408210908">
       <category name="JDT JUnit UI Extension 0.1.0"/>
    </feature>
+   <feature url="features/org.eclipse.jdt.junit.runners.feature_0.1.0.201408211559.jar" id="org.eclipse.jdt.junit.runners.feature" version="0.1.0.201408211559">
+      <category name="JDT JUnit UI Extension 0.1.0"/>
+   </feature>
    <category-def name="JDT JUnit UI Extension 0.1.0" label="JDT JUnit UI Extension 0.1.0"/>
 </site>
