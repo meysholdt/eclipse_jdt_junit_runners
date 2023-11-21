@@ -212,9 +212,11 @@ public class PatchSetup implements IStartup {
 					String className = type.getFullyQualifiedName();
 					String id = testElement.getId();
 					String testName = ((ITestSuiteElement) testElement).getSuiteTypeName();
+					String displayName = testElement.getDisplayName();
+					String uniqueId = testElement.getUniqueId();
 					manager.add(new Separator());
-					manager.add(new RerunAction(RerunAction_label_run, fTestRunnerPart, id, className, testName, RUN_MODE));
-					manager.add(new RerunAction(RerunAction_label_debug, fTestRunnerPart, id, className, testName, DEBUG_MODE));
+					manager.add(new RerunAction(RerunAction_label_run, fTestRunnerPart, id, className, testName, displayName, uniqueId, RUN_MODE));
+					manager.add(new RerunAction(RerunAction_label_debug, fTestRunnerPart, id, className, testName, displayName, uniqueId, DEBUG_MODE));
 					manager.add(new Separator());
 				}
 			}
