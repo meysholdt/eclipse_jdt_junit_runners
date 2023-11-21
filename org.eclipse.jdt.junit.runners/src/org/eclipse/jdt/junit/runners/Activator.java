@@ -3,6 +3,7 @@ package org.eclipse.jdt.junit.runners;
 import java.util.ArrayList;
 
 import org.eclipse.jdt.internal.junit.launcher.ITestKind;
+import org.eclipse.jdt.internal.junit.launcher.TestKind;
 import org.eclipse.jdt.internal.junit.launcher.TestKindRegistry;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -47,7 +48,7 @@ public class Activator extends AbstractUIPlugin {
 			// https://bugs.eclipse.org/bugs/show_bug.cgi?id=443498
 			TestKindRegistry default1 = TestKindRegistry.getDefault();
 			@SuppressWarnings("unchecked")
-			ArrayList<ITestKind> kinds = default1.getAllKinds();
+			ArrayList<TestKind> kinds = default1.getAllKinds();
 			for (int i = 0; i < kinds.size(); i++) {
 				if (kinds.get(i).getId().equals(TestKindRegistry.JUNIT4_TEST_KIND_ID))
 					kinds.set(i, new PatchedTestKind(kinds.get(i)));
